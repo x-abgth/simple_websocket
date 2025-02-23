@@ -8,3 +8,21 @@
 {"level":"warn","ts":"2025-02-23T15:32:56.314+0530","caller":"server/main.go:26","msg":"Hello"}
 {"level":"info","ts":"2025-02-23T15:44:23.346+0530","caller":"server/main.go:21","msg":"✅ Logger initialized successfully!"}
 {"level":"info","ts":"2025-02-23T15:45:02.973+0530","caller":"server/main.go:21","msg":"✅ Logger initialized successfully!"}
+{"level":"info","ts":"2025-02-23T19:04:09.821+0530","caller":"server/main.go:25","msg":"✅ Logger initialized successfully!"}
+{"level":"info","ts":"2025-02-23T19:04:09.822+0530","caller":"server/main.go:33","msg":"✅ Server started on port 8080"}
+{"level":"info","ts":"2025-02-23T19:15:25.169+0530","caller":"app/hub.go:46","msg":"New client connected!"}
+{"level":"info","ts":"2025-02-23T19:26:25.957+0530","caller":"server/main.go:25","msg":"✅ Logger initialized successfully!"}
+{"level":"info","ts":"2025-02-23T19:26:25.958+0530","caller":"server/main.go:33","msg":"✅ Server started on port 3000"}
+{"level":"info","ts":"2025-02-23T19:27:36.608+0530","caller":"app/hub.go:46","msg":"👨🏻✅ New Client connection established!"}
+{"level":"info","ts":"2025-02-23T19:27:41.712+0530","caller":"app/websocket.go:41","msg":"📩 New message received","sender":"Abhi","content":"Hi, How are you ?","timestamp":"2025-02-23T19:27:41.712+0530"}
+{"level":"info","ts":"2025-02-23T19:27:41.713+0530","caller":"app/websocket.go:60","msg":"📢 Broadcasting message","sender":"Abhi","content":"Hi, How are you ?","timestamp":"2025-02-23T19:27:41.712+0530"}
+{"level":"info","ts":"2025-02-23T19:28:27.105+0530","caller":"server/main.go:25","msg":"✅ Logger initialized successfully!"}
+{"level":"info","ts":"2025-02-23T19:28:27.106+0530","caller":"server/main.go:33","msg":"✅ Server started on port 3000"}
+{"level":"info","ts":"2025-02-23T19:28:34.489+0530","caller":"app/hub.go:46","msg":"👨🏻✅ New Client connection established!"}
+{"level":"info","ts":"2025-02-23T19:28:39.150+0530","caller":"app/websocket.go:41","msg":"📩 New message received","sender":"Abhi","content":"Hi, How are you ?","timestamp":"2025-02-23T19:28:39.150+0530"}
+{"level":"info","ts":"2025-02-23T19:28:39.151+0530","caller":"app/websocket.go:55","msg":"📢 Broadcasting message","sender":"Abhi","content":"Hi, How are you ?","timestamp":"2025-02-23T19:28:39.150+0530"}
+{"level":"info","ts":"2025-02-23T19:30:20.849+0530","caller":"server/main.go:25","msg":"✅ Logger initialized successfully!"}
+{"level":"info","ts":"2025-02-23T19:30:20.849+0530","caller":"server/main.go:33","msg":"✅ Server started on port 3000"}
+{"level":"info","ts":"2025-02-23T19:30:27.848+0530","caller":"app/hub.go:47","msg":"👨🏻✅ New Client connection established!"}
+{"level":"info","ts":"2025-02-23T19:30:32.314+0530","caller":"app/websocket.go:41","msg":"📩 New message received","sender":"Abhi","content":"Hi, How are you ?","timestamp":"2025-02-23T19:30:32.314+0530"}
+{"level":"info","ts":"2025-02-23T19:30:32.314+0530","caller":"app/hub.go:62","msg":"📢 Broadcasting message","sender":"Abhi","content":"Hi, How are you ?","timestamp":"2025-02-23T19:30:32.314+0530"}
