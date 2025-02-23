@@ -97,6 +97,8 @@ case message := <-h.Broadcast:
 ```
 
 ## 🚀 How to Run This Project
+📝 Note: The `.env` file is included in the repository for educational purposes. In real-world applications, sensitive environment variables should never be committed to version control.
+
 ### **1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/your-username/realtime-chat.git
