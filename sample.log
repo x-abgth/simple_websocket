@@ -1,0 +1,8 @@
+{"level":"error","ts":"2025-02-23T14:51:21.274+0530","caller":"server/main.go:9","msg":"Hello"}
+{"level":"error","ts":"2025-02-23T15:30:11.533+0530","caller":"server/main.go:23","msg":"Hello"}
+{"level":"debug","ts":"2025-02-23T15:30:11.534+0530","caller":"server/main.go:24","msg":"Hello"}
+{"level":"info","ts":"2025-02-23T15:30:11.534+0530","caller":"server/main.go:25","msg":"Hello"}
+{"level":"warn","ts":"2025-02-23T15:30:11.534+0530","caller":"server/main.go:26","msg":"Hello"}
+{"level":"error","ts":"2025-02-23T15:32:56.313+0530","caller":"server/main.go:23","msg":"Hello"}
+{"level":"info","ts":"2025-02-23T15:32:56.313+0530","caller":"server/main.go:25","msg":"Hello"}
+{"level":"warn","ts":"2025-02-23T15:32:56.314+0530","caller":"server/main.go:26","msg":"Hello"}
