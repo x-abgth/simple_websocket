@@ -28,8 +28,6 @@ type LoggerConfig struct {
 // It automatically reads environment variables if the .env file is not found.
 func LoadConfig() (*Config, error) {
 
-	log.Println("Entering func: LoadConfig()")
-
 	viper.SetConfigFile(".env")                            // Define the config file
 	viper.SetConfigType("env")                             // Specify file type as .env
 	viper.AutomaticEnv()                                   // Automatically read system environment variables
@@ -40,7 +38,6 @@ func LoadConfig() (*Config, error) {
 		log.Printf("⚠️ Warning: No .env file found. Using system environment variables. Error: %s", err.Error())
 	}
 
-	log.Println("Exiting func: LoadConfig()")
 	// Return the fully constructed Config object
 	return &Config{Logger: readLoggerConfig()}, nil
 }

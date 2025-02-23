@@ -1,27 +1,22 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"simple_websocket/internal/config"
 	"simple_websocket/pkg/logger"
 )
 
-// main intializes the application (starting point of the application)
+// main is the entry point of the application.
 func main() {
-
+	// Load application configuration
 	cfg, err := config.LoadConfig()
 	if err != nil {
-		log.Printf("failed to load configuration from the file. ERROR: %s", err)
-		return
+		log.Fatalf("⚠️ Failed to load configuration: %s", err)
 	}
 
-	fmt.Println(cfg)
-
+	// Initialize logger with loaded config
 	logger.InitLogger(cfg.Logger)
 
-	logger.WriteLog.Error("Hello")
-	logger.WriteLog.Debug("Hello")
-	logger.WriteLog.Info("Hello")
-	logger.WriteLog.Warn("Hello")
+	// Log successful initialization
+	logger.WriteLog.Info("✅ Logger initialized successfully!")   
 }
